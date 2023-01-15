@@ -399,5 +399,10 @@ Bonus point Responsive Mobile
         width: 10px;
         height: 10px;
     }
+    .over-write-parent{
+        position: relative;
+        bottom: 50px;
+        left: 0;
+    }
 
 }
