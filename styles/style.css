@@ -105,7 +105,6 @@ Middle Feature Banner
 
 .quick-list {
     color: #727272;
-    /* font-size: 1.5em; */
     font-weight: 700;
 }
 
@@ -142,8 +141,6 @@ Middle Feature Banner
 .gear {
     position: relative;
     animation: 10s infinite example;
-    /* animation-duration:; */
-
 }
 
 .gear-img {
@@ -238,8 +235,6 @@ span {
 }
 
 .performance {
-    /* text-align: center;
-    align-items: center; */
     border: 1px solid rgb(255, 149, 0);
     border-radius: 5px;
     width: 150px;
