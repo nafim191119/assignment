@@ -280,12 +280,16 @@ span {
 ----------------- */
 
 .copy-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(0, 0, 0);
-    text-align: center;
     background-color: rgb(255, 222, 235);
     height: 80px;
     font-weight: 400;
     font-size: 1em;
+    
+
 }
 
 /* -----------------------------
