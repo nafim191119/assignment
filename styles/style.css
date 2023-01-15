@@ -195,11 +195,13 @@ Middle Feature Banner
 .intro-person {
     position: relative;
 }
-.over-write-parent{
+
+.over-write-parent {
     position: relative;
     bottom: 50px;
     left: -50px;
 }
+
 .over-write {
     color: rgb(255, 255, 255);
     background-color: rgb(255, 136, 0);
@@ -209,7 +211,8 @@ Middle Feature Banner
     text-align: center;
     border-radius: 5px;
 }
-span{
+
+span {
     font-size: x-large;
     font-weight: bold;
 }
@@ -346,4 +349,55 @@ Bonus point Responsive Mobile
     .performance {
         margin-bottom: 10px;
     }
+
+    .building img {
+        width: 100%;
+    }
+
+    .gear img {
+        width: 500%;
+        height: 500%;
+    }
+
+    @keyframes example-2 {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes example {
+        0% {
+            left: 0px;
+            top: 0px;
+        }
+    
+        25% {
+            left: 280px;
+            top: 0px;
+        }
+    
+        50% {
+            left: 200px;
+            top: 160px;
+        }
+    
+        75% {
+            left: 0px;
+            top: 200px;
+        }
+    
+        100% {
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    .gear {
+        width: 10px;
+        height: 10px;
+    }
+
 }
